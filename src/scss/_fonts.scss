@@ -106,6 +106,25 @@
   font-family: 'icomoon';
 }
 
+// arrow-right
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/src/fonts/arrow-right/icomoon.eot?1azebk');
+  src:  url('/src/fonts/arrow-right/icomoon.eot?1azebk#iefix') format('embedded-opentype'),
+    url('/src/fonts/arrow-right/icomoon.ttf?1azebk') format('truetype'),
+    url('/src/fonts/arrow-right/icomoon.woff?1azebk') format('woff'),
+    url('/src/fonts/arrow-right/icomoon.svg?1azebk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-arrow-right:before {
+  content: "\e917";
+  font-family: 'icomoon';
+}
+
+
 
 
 
