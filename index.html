@@ -7,7 +7,7 @@
 </head>
 <body>
 	<section id="slider">	
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="false">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active slider-indicator"></li>
 	    <li data-target="#carouselExampleIndicators" data-slide-to="1" class=slider-indicator></li>
@@ -120,7 +120,7 @@
 			<div class="row">
 				<div class="juggler">
 					<div class="juggler-item first-item">
-						<div id="carouselExampleIndicators1" class="carousel slide juggler-carousel" data-ride="carousel">
+						<div id="carouselExampleIndicators1" class="carousel slide juggler-carousel" data-ride="false">
 	  					<ol class="carousel-indicators">
 						    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active slider-indicator"></li>
 						    <li data-target="#carouselExampleIndicators1" data-slide-to="1" class=slider-indicator></li>
@@ -148,7 +148,7 @@
 					</div>
 				</div>
 					<div class="juggler-item second-item">
-						<div id="carouselExampleIndicators2" class="carousel slide juggler-carousel" data-ride="carousel">
+						<div id="carouselExampleIndicators2" class="carousel slide juggler-carousel" data-ride="false">
 	  					<ol class="carousel-indicators">
 						    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active slider-indicator"></li>
 						    <li data-target="#carouselExampleIndicators2" data-slide-to="1" class=slider-indicator></li>
@@ -176,7 +176,7 @@
 					</div>
 					</div>
 					<div class="juggler-item three-item">
-						<div id="carouselExampleIndicators3" class="carousel slide juggler-carousel" data-ride="carousel">
+						<div id="carouselExampleIndicators3" class="carousel slide juggler-carousel" data-ride="false">
 							<ol class="carousel-indicators">
 						    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active slider-indicator"></li>
 						    <li data-target="#carouselExampleIndicators3" data-slide-to="1" class=slider-indicator></li>
@@ -463,9 +463,79 @@
 			<div class="row">
 				<div class="col-8 offset-2">
 					<p class="section-text posts-text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-			</div>
 				</div>
+			</div>
 			<div class="row">
+				<div id="carouselExampleIndicatorsPosts" class="carousel slide posts-carousel" data-ride="false">
+	  			<ol class="posts-carousel-indicators ">
+				    <li data-target="#carouselExampleIndicatorsPosts" data-slide-to="0" class="active posts-indicator-slide left-arrow"><img src="src/img/indicator-slide.png" alt=""></li>
+				    <li data-target="#carouselExampleIndicatorsPosts" data-slide-to="1" class="posts-indicator-slide"><img src="src/img/indicator-slide.png" alt=""></li>
+	  			</ol>
+ 				<div class="carousel-inner">
+    			<div class="carousel-item active">
+      			<div class="row">
+      				<div class="col-4">
+      					<div class="posts-card">
+      						<div class="posts-card-logo">
+      							<div class="posts-card-logo-wrapper"></div>
+      							<img src="src/img/posts-card-logo.png" alt="logo of the card" class="posts-card-logo-item">
+      							<div class="date">
+      								<p class="date-num">30</p>
+      								<p class="date-month">Sep.</p>
+      							</div>
+      							<div class="block-circle">
+      								<span class="circle"></span>
+      								<span class="circle"></span>
+      								<span class="circle"></span>
+      								<span class="circle"></span>
+      								<span class="circle"></span>
+      							</div>
+      						</div>
+      						<div class="posts-card-body">
+      								<h2 class="posts-card-title">Lorem ipsum dolor sit amet</h2>
+      							<p class="posts-card-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+      							<a href="#" class="posts-card-link">Read More</a>
+      						</div>
+      					</div>
+      				</div>
+      				<div class="col-4">
+      					<div class="posts-card">
+      						<div class="posts-card-logo">
+      							<div class="posts-card-logo-wrapper"></div>
+      								<img src="src/img/posts-card-logo-2.png" alt=logo of the card" class="posts-card-logo-item">
+      								<div class="date">
+      									<p class="date-num">30</p>
+      									<p class="date-month">Sep.</p>
+      								</div>
+      						</div>
+      						<div class="posts-card-body">
+      							<h2 class="posts-card-title">Lorem ipsum dolor sit amet</h2>
+      							<p class="posts-card-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+      							<a href="#" class="posts-card-link">Read More</a>
+      						</div>
+      					</div>
+      				</div>
+      				<div class="col-4">
+      					<div class="posts-card">
+      						<div class="posts-card-logo">
+      							<div class="posts-card-logo-wrapper"></div>
+      								<img src="src/img/posts-card-logo-3.png" alt="logo of the card" class="posts-card-logo-item">
+      								<div class="date">
+      									<p class="date-num">30</p>
+      									<p class="date-month">Sep.</p>
+      								</div>
+      						</div>
+      						<div class="posts-card-body">
+      							<h2 class="posts-card-title">Lorem ipsum dolor sit amet</h2>
+      							<p class="posts-card-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+      							<a href="#" class="posts-card-link">Read More</a>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+    			</div>
+    			<div class="carousel-item">
+      			<div class="row">
 				<div class="col-4">
 					<div class="posts-card">
 						<div class="posts-card-logo">
@@ -521,6 +591,87 @@
 							<h2 class="posts-card-title">Lorem ipsum dolor sit amet</h2>
 							<p class="posts-card-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
 							<a href="#" class="posts-card-link">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+    			</div>
+  			</div>
+			</div>
+			</div>	
+		</div>
+	</section>
+	<section id="partners" class="partners">
+		<div class="container">
+			<div class="row">
+				<div class="col-3 partners-logo"><img src="src/img/partners-logo/logo-01.png" alt="partners logo" class="partners-logo-pict"></div>
+				<div class="col-3 partners-logo"><img src="src/img/partners-logo/logo-02.png" alt="partners logo" class="partners-logo-pict"></div>
+				<div class="col-3 partners-logo"><img src="src/img/partners-logo/logo-03.png" alt="partners logo" class="partners-logo-pict"></div>
+				<div class="col-3 partners-logo"><img src="src/img/partners-logo/logo-04.png" alt="partners logo" class="partners-logo-pict"></div>
+			</div>
+		</div>
+	</section>
+	<section id="news" class="news">
+		<div class="container">
+			<div class="row news-row">
+				<div class="col-3">
+					<div class="news-block">
+						<div class="news-block-logo">
+							<a href="#" class="news-logo">Waxom
+							</a>
+						</div>
+						<div class="news-item">
+							<p class="news-item-text">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.
+							</p>
+						</div>
+						<a href="#" class="news-link">Read More</a>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="news-block news-recent-post">
+						<h3 class="section-title news-title">Recent Posts</h3>
+						<div class="news-item">
+							<span class="news-item-date">September 08, 2015</span>
+							<p class="news-item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+						</div><div class="news-item">
+							<span class="news-item-date">September 08, 2015</span>
+							<p class="news-item-text">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+						</div><div class="news-item">
+							<span class="news-item-date">September 08, 2015</span>
+							<p class="news-item-text">Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="news-block news-twitter">
+						<h3 class="section-title news-title">Our Twitter</h3>
+						<div class="news-item">
+							<p class="news-item-text"><a href="#" class="news-item-user-link">@waxom</a> Cum soluta nobis option congue nihil imperdiet doming</p>
+							<span class="news-item-time">3 mins ago</span>
+						</div>
+						<div class="news-item">
+							<p class="news-item-text"> Mirum est <a href="#" class="news-item-user-link">#envato</a> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+							<span class="news-item-time">5 hours ago</span>
+						</div>
+						<div class="news-item">
+							<p class="news-item-text">Soluta nobis option bit.ly/1Hniso7</p>
+							<span class="news-item-time">20 days ago</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="news-block news-drible-widget">
+						<h3 class="section-title news-title">Dribbble Widget</h3>
+						<div class="news-item">
+							<div class="row">
+								<div class="col-6"><img src="src/img/footer-block/footer-pict.png" alt=""></div>
+								<div class="col-6"><img src="src/img/footer-block/footer-pict-2.png" alt="pict of the footer block"></div>
+							</div>
+							<div class="row">
+								<div class="col-6"><img src="src/img/footer-block/footer-pict-3.png" alt="pict of the footer block"></div>
+								<div class="col-6"><img src="src/img/footer-block/footer-pict-4.png" alt="pict of the footer block"></div>
+							</div>
 						</div>
 					</div>
 				</div>
