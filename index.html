@@ -42,25 +42,58 @@
 	  </a>
 		</div>
 		<div class="container wrapper">
-			<div class="row header">
-				<ul class="header-nav">
-					<li class="header-nav-menu-open">Menu
-						<ul class="header-nav-menu">
-							<li class="header-nav-menu-item"><a href="#" class="header-nav-menu-link">Home</a></li>
-							<li class="header-nav-menu-item"><a href="#" class="header-nav-menu-link">About Us</a></li>
-							<li class="header-nav-menu-item"><a href="#" class="header-nav-menu-link">Portfolio</a></li>
-							<li class="header-nav-menu-item"><a href="#" class="header-nav-menu-link">Features</a></li>
-							<li class="header-nav-menu-item"><a href="#" class="header-nav-menu-link">Blog</a></li>
-							<li class="header-nav-menu-item"><a href="#" class="header-nav-menu-link">Pricing</a></li>
-							<li class="header-nav-menu-item"><a href="#" class="header-nav-menu-link">Shortcodes</a></li>
-							<li class="header-nav-menu-item"><a href="#" class="header-nav-menu-link">Contact</a></li>
-							<li class="header-nav-menu-item"><a href="#" class="header-nav-menu-link"><span class="icon-icon-cart"></span></a></li>
-							<li class="header-nav-menu-item"><a href="#" class="header-nav-menu-link"><span class="icon-icon-search"></span></a></li>
-						</ul>
-					</li>
-				</ul>
+			<!-- Mobile version -->
+			<div class="row mobile-header">
+						<div class="col-12 mobile-header-nav-area collapse" id="collapseExample">
+					<ul class="mobile-header-nav">
+						<li class="mobile-header-nav-item">
+							<a href="#" class="mobile-header-nav-link">Home</a>
+						</li>
+						<li class="mobile-header-nav-item">
+							<a href="#" class="mobile-header-nav-link">About us</a>
+						</li>
+						<li class="mobile-header-nav-item">
+							<a href="#" class="mobile-header-nav-link">Portfolio</a>
+						</li>
+						<li class="mobile-header-nav-item">
+							<a href="#" class="mobile-header-nav-link">Features</a>
+						</li>
+						<li class="mobile-header-nav-item">
+							<a href="#" class="mobile-header-nav-link">Blog</a>
+						</li>
+						<li class="mobile-header-nav-item">
+							<a href="#" class="mobile-header-nav-link">Pricing</a>
+						</li>
+						<li class="mobile-header-nav-item">
+							<a href="#" class="mobile-header-nav-link">Shortcodes</a>
+						</li>
+						<li class="mobile-header-nav-item">
+							<a href="#" class="mobile-header-nav-link">Contact</a>
+						</li>
+					</ul>
 				</div>
-				<div class="row header-desctop">
+				<div class="col-4">
+					<div class="mobile-header-menu">
+						<a class="mobile-header-menu-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<span class="mobile-header-menu-item"></span>
+						</a>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="mobile-header-img">
+						<img class="mobile-header-pict" src="src/img/mobile-logo.png" alt="Logo of the comapny">
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="mobile-header-search">
+						<a href="#" class="mobile-header-search-link">
+							<span class="icon-icon-search"></span>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="row header-desctop">
 						<div class="col-lg-3">
 					<a href="#" class="main-logo">
 						<img src="src/img/logo.png" alt="logo of company">
@@ -94,7 +127,7 @@
 					<h2 class="upper-title">Unique and Modern Design</h2>
 					<h1 class="title">Portfolio PSD Template</h1>
 					<p class="under-title">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
-					<button action="submit" class="title-block-btn">Get Started</button>
+					<button type="submit" class="title-block-btn">Get Started</button>
 				</div>
 			</div>
 		</div>
@@ -230,7 +263,7 @@
 				<div class="row">
 					<div class="col-lg-6 col-sm-12">
 						<div class="wordpress-title-block">
-						<span class="wordpress-title"><a href="#" class="logo-link">Waxom</a>Multipurpose WordPress Theme</span>
+						<h2 class="wordpress-title"><a href="#" class="logo-link">Waxom</a>Multipurpose WordPress Theme</h2>
 						<p class="wordpress-text">Don't Forget to Rate the Template. Thanks so much!</p>
 						</div>
 					</div>
@@ -511,22 +544,23 @@
 	</section>
 	<section id="video" class="presentation">
 		<div class="video-item">
-			<video src="#" poster="src/img/photo.png" width=100%></video>
-			<div class="presentation-wrapper">
-			<div class="container">
-				<div class="row">
-					<a href="#" class="icon-icon-play presentation-wrapper-btn"></a>
+			<video class="video-poster" src="#" poster="src/img/photo.png"></video>
+				<div class="presentation-wrapper">
+				<div class="container">
+					<div class="row">
+						<a href="#" class="icon-icon-play presentation-wrapper-btn"></a>
+					</div>
+					<div class="row">
+						<h2 class="section-title presentation-wrapper-title">		Waxom Video Presentation</h2>
+					</div>
+					<div class="row">
+						<p class="section-text presentation-wrapper-text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
+					</div>
+					<div class="row">
+						<span class="presentation-wrapper-time">03:26</span>
+					</div>
 				</div>
-				<div class="row">
-					<h2 class="section-title presentation-wrapper-title">Waxom Video Presentation</h2>
-				</div>
-				<div class="row">
-					<p class="section-text presentation-wrapper-text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
-				</div>
-				<div class="row">
-					<span class="presentation-wrapper-time">03:26</span>
-				</div>
-		</div>
+			</div>
 		</div>
 	</section>
 	<section id="device" class="device">
@@ -565,7 +599,7 @@
 							<span class="calc-block-number">3587</span>
 						</div>
 						<div class="row">
-							<span class="calc-block-features">Satisfied Clients</span>
+							<h5 class="calc-block-features">Satisfied Clients</h5>
 						</div>
 					</div>	
 			    <div class="carousel-item">
@@ -576,7 +610,7 @@
 							<span class="calc-block-number">207</span>
 						</div>
 						<div class="row">
-							<span class="calc-block-features">Cups of coffee</span>
+							<h5 class="calc-block-features">Cups of coffee</h5>
 						</div>
 			    	</div>
 			    <div class="carousel-item">
@@ -587,7 +621,7 @@
 							<span class="calc-block-number">2500</span>
 						</div>
 						<div class="row">
-							<span class="calc-block-features">Blog posts</span>
+							<h5 class="calc-block-features">Blog posts</h5>
 						</div>
 			    </div>    
 			    <div class="carousel-item">
@@ -598,7 +632,7 @@
 							<span class="calc-block-number">873</span>
 						</div>
 						<div class="row">
-							<span class="calc-block-features">Likes</span>
+							<h5 class="calc-block-features">Likes</h5>
 						</div>
 			    </div>    
 			    <div class="carousel-item">
@@ -609,7 +643,7 @@
 							<span class="calc-block-number">900</span>
 						</div>
 						<div class="row">
-							<span class="calc-block-features">We launched</span>
+							<h5 class="calc-block-features">We launched</h5>
 						</div>
 		    	</div>
 	 			</div>
@@ -621,7 +655,7 @@
 		
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2 offset-lg-1 calc-block">
+				<div class="col-2 offset-1 col-lg-2 offset-lg-1 calc-block">
 					<div class="row">
 						<span class="calc-block-logo icon-user-icon"></span>
 					</div>
@@ -629,10 +663,10 @@
 						<span class="calc-block-number">3587</span>
 					</div>
 					<div class="row">
-						<span class="calc-block-features">Satisfied Clients</span>
+						<h5 class="calc-block-features">Satisfied Clients</h5>
 					</div>
 				</div>
-				<div class="col-lg-2 calc-block">
+				<div class="col-2 col-lg-2 calc-block">
 					<div class="row">
 						<span class="calc-block-logo icon-coffee-icon"></span>
 					</div>
@@ -640,10 +674,10 @@
 						<span class="calc-block-number">207</span>
 					</div>
 					<div class="row">
-						<span class="calc-block-features">Cups of coffee</span>
+						<h5 class="calc-block-features">Cups of coffee</h5>
 					</div>
 				</div>
-				<div class="col-lg-2 calc-block">
+				<div class="col-2 col-lg-2 calc-block">
 					<div class="row">
 						<span class="calc-block-logo icon-chat-icon"></span>
 					</div>
@@ -651,19 +685,19 @@
 						<span class="calc-block-number">2500</span>
 					</div>
 					<div class="row">
-						<span class="calc-block-features">Blog posts</span>
+						<h5 class="calc-block-features">Blog posts</h5>
 					</div>
 				</div>
-				<div class="col-lg-2 calc-block">
+				<div class="col-2 col-lg-2 calc-block">
 					<div class="row">
 						<span class="calc-block-logo icon-heart-icon"></span>
 					</div>
 					<div class="row">
 						<span class="calc-block-number">873</span></div>
-					<div class="row"><span class="calc-block-features">Likes</span>
+					<div class="row"><h5 class="calc-block-features">Likes</h5>
 					</div>
 				</div>
-				<div class="col-lg-2 calc-block">
+				<div class="col-2 col-lg-2 calc-block">
 					<div class="row">
 						<span class="calc-block-logo icon-food-icon"></span>
 					</div>
@@ -671,15 +705,14 @@
 						<span class="calc-block-number">900</span>
 					</div>
 					<div class="row">
-						<span class="calc-block-features">We launched</span>
+						<h5 class="calc-block-features">We launched</h5>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section id="posts" class="posts">
-			
-				<!-- Mobile -->
+					<!-- Mobile -->
 		<div id="PostsMobileSlider" class="posts-mobile-slider carousel slide" data-ride="false">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
@@ -710,7 +743,7 @@
 		      <div class="posts-card">
       			<div class="posts-card-logo">
       				<div class="posts-card-logo-wrapper"></div>
-      					<img src="src/img/posts-card-logo-2.png" alt=logo of the card" class="posts-card-logo-item">
+      					<img src="src/img/posts-card-logo-2.png" alt="logo of the card" class="posts-card-logo-item">
       				<div class="date">
       					<p class="date-num">30</p>
       					<p class="date-month">Sep.</p>
@@ -768,7 +801,7 @@
 		      <div class="posts-card">
       			<div class="posts-card-logo">
       				<div class="posts-card-logo-wrapper"></div>
-      					<img src="src/img/posts-card-logo-2.png" alt=logo of the card" class="posts-card-logo-item">
+      					<img src="src/img/posts-card-logo-2.png" alt="logo of the card" class="posts-card-logo-item">
       				<div class="date">
       					<p class="date-num">30</p>
       					<p class="date-month">Sep.</p>
@@ -855,7 +888,7 @@
       					<div class="posts-card">
       						<div class="posts-card-logo">
       							<div class="posts-card-logo-wrapper"></div>
-      								<img src="src/img/posts-card-logo-2.png" alt=logo of the card" class="posts-card-logo-item">
+      								<img src="src/img/posts-card-logo-2.png" alt="logo of the card" class="posts-card-logo-item">
       								<div class="date">
       									<p class="date-num">30</p>
       									<p class="date-month">Sep.</p>
@@ -917,7 +950,7 @@
 					<div class="posts-card">
 						<div class="posts-card-logo">
 							<div class="posts-card-logo-wrapper"></div>
-								<img src="src/img/posts-card-logo-2.png" alt=logo of the card" class="posts-card-logo-item">
+								<img src="src/img/posts-card-logo-2.png" alt="logo of the card" class="posts-card-logo-item">
 								<div class="date">
 									<p class="date-num">30</p>
 									<p class="date-month">Sep.</p>
@@ -957,6 +990,7 @@
 	<section id="partners" class="partners">
 		<div class="container">
 			<div class="row">
+				<h3 class="for-validate">ujdhfvehr</h3>
 				<div class="col-lg-3 partners-logo"><img src="src/img/partners-logo/logo-01.png" alt="partners logo" class="partners-logo-pict"></div>
 				<div class="col-lg-3 partners-logo"><img src="src/img/partners-logo/logo-02.png" alt="partners logo" class="partners-logo-pict"></div>
 				<div class="col-lg-3 partners-logo"><img src="src/img/partners-logo/logo-03.png" alt="partners logo" class="partners-logo-pict"></div>
@@ -1034,7 +1068,7 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-lg-5">
+				<div class="col-12 col-sm-7 col-lg-5">
 					<ul class="footer-about">
 						<li class="footer-about-item"><a href="#" class="footer-about-link">Copyright &copy; 2015 X <span class="footer-about-link-logo">Waxom</span></a></li>
 						<li class="footer-about-item"><a href="#" class="footer-about-link">Privacy Policy</a></li>
@@ -1042,7 +1076,7 @@
 						<li class="footer-about-item"><a href="#" class="footer-about-link">Support</a></li>
 					</ul>
 				</div>
-				<div class="col-12  col-lg-4 offset-lg-3">
+				<div class="col-12 col-sm-5 offset-sm-0 col-lg-4 offset-lg-3">
 					<ul class="footer-production">
 						<li class="footer-production-item"><a href="#" class="footer-production-link">Designed by <span class="footer-production-link-logo">ThemeFire</span>  </a></li>
 						<li class="footer-production-item"><a href="#" class="footer-production-link">Only on <span class="footer-production-link-logo">Envato Market</span></a></li>
